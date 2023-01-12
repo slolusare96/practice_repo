@@ -1,0 +1,34 @@
+h4{
+    background-color: cadetblue;
+    font-family: 'Impact';
+    font-size: 50px;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 5px red solid;
+    padding: 10px;
+    margin: 100px;
+    background-image: url('../images/example.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    border: 2px orange solid;
+    margin: 20px;
+    padding: 10px;
+    color: yellow;
+}
+span{
+    width: 5000px;
+    height: 5000px;
+    border: 5px red solid;
+    padding: 10px;
+    margin: 100px;
+    background-image: url('../images/example.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
