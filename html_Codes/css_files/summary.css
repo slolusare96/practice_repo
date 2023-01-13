@@ -1,6 +1,16 @@
 p{
     color: crimson;
-    background-color: darkseagreen;
+    background-color: lightpink;
+    font-family: 'Segoe UI';
+    border: 2px gray solid;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+pre{
+    color: navy;
+    background-color: lightgray;
     font-family: 'Segoe UI';
     border: 2px gray solid;
     border-radius: 5px;
