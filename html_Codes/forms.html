@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exploring forms</title>
+    <link rel="stylesheet" href="./css_files/forms.css" />
+  </head>
+  <body>
+    <h1>Exploring forms</h1>
+    <h2>Types of form inputs</h2>
+    <pre>
+      <input type="button" />
+      <input type="checkbox" />
+      <input type="color" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="email" />
+      <input type="file" />
+      <input type="hidden" />
+      <input type="image" />
+      <input type="month" />
+      <input type="number" />
+      <input type="password" />
+      <input type="radio" />
+      <input type="range" />
+      <input type="reset" />
+      <input type="search" />
+      <input type="submit" />
+      <input type="tel" />
+      <input type="text" />
+      <input type="time" />
+      <input type="url" />
+      <input type="week" />
+    </pre>
+    <h2>Creating our first form</h2>
+    <form action="./index1.html" target="_top">
+      <label for="fname">First Name : </label>
+      <input type="text" name="fname" id="fname" /> <br />
+      <br />
+      <label for="lname">Last Name : </label>
+      <input type="text" name="lname" id="lname" /> <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>Exploring radio iputs</h2>
+    <form>
+      <input type="radio" name="html" id="html" />
+      <label for="html"> HTML</label> <br />
+
+      <input type="radio" name="css" id="css" />
+      <label for="css"> CSS</label> <br />
+
+      <input type="radio" name="js" id="js" />
+      <label for="js"> Javascript</label> <br />
+    </form>
+
+    <h2>Exploring Checkboxes</h2>
+    <form>
+      <input type="checkbox" name="health?" id="health?" /> &nbsp;
+      <label for="health?">I am healthy...</label> <br />
+
+      <input type="checkbox" name="smoke?" id="smoke?" /> &nbsp;
+      <label for="smoke?">I do not smoke...</label> <br />
+
+      <input type="checkbox" name="god?" id="god?" /> &nbsp;
+      <label for="god?">I pray to God everyday...</label> <br />
+    </form>
+
+    <h2>Exploring form elements</h2>
+    <form action="./index1.html" target="_blank">
+      <label for="cars">Select your favourite car</label> <br />
+      <select name="cars" id="cars">
+        <option value="lambo">Lamborgini</option>
+        <option value="ferari">Ferrari</option>
+        <option value="mustang">Mushtang</option>
+        <option value="thar" selected>Thar</option>
+        <option value="fortuner">Fortuner</option>
+        <option value="swift">Swift</option>
+        <option value="nano">Nano</option>
+        <option value="bmw">BMW</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2>Exploring textarea...</h2>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <input type="submit" value="submit" />
+
+    <h2>Exploring button</h2>
+    <button
+      type="button"
+      onclick="alert('Hello Dear! thanks for Clicking')"
+      target="_blank"
+    >
+      Click Me
+    </button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h2>Exploring Fieldsets</h2>
+    <form action="./index1.html" target="_blank">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="fname" />
+        <br />
+        <label for="lname">First Name : </label>
+        <input type="text" name="lname" id="lname" />
+      </fieldset>
+      <fieldset>
+        <legend>Tell us about your habits</legend>
+        <input type="checkbox" name="healthy?" id="healthy?" />
+        <label for="healthy?">I am healthy...</label>
+        <br />
+        <input type="checkbox" name="smoke?" id="smoke?" />
+        <label for="smoke?">I do not smoke cigarrates...</label>
+        <br />
+        <input type="checkbox" name="god?" id="god?" />
+        <label for="god?">I pray to God everyday...</label>
+      </fieldset>
+      <fieldset>
+        <legend>Tell us about your favourite car</legend>
+        <label for="cars">Select your favourite car</label> <br />
+        <select name="cars" id="cars">
+          <option value="lambo">Lamborgini</option>
+          <option value="ferari">Ferrari</option>
+          <option value="mustang">Mushtang</option>
+          <option value="thar" selected>Thar</option>
+          <option value="fortuner">Fortuner</option>
+          <option value="swift">Swift</option>
+          <option value="nano">Nano</option>
+          <option value="bmw">BMW</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
