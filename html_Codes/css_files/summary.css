@@ -1,7 +1,8 @@
-p{
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+.newp{
     color: crimson;
     background-color: lightpink;
-    font-family: 'Segoe UI';
+    font-family: 'Poppins';
     border: 2px gray solid;
     border-radius: 5px;
     text-align: justify;
@@ -16,4 +17,52 @@ pre{
     border-radius: 5px;
     text-align: justify;
     font-size: 16px;
+}
+
+blockquote{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 4px solid brown;
+    font-family: 'Poppins';
+    text-align: justify;
+    display: block;
+    
+    box-shadow: -3px 2px 10px rgba(0, 0, 0, 0.25); 
+    font-style: italic; 
+}
+
+address{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 4px solid brown;
+    font-family: 'Poppins';
+    text-align: justify;
+    display: block;
+    box-shadow: -3px 2px 10px rgba(0, 0, 0, 0.25); 
+    font-style: italic;
+}
+
+a{
+
+    font-size: 20px;
+}
+
+a:link{
+    font-size: 20px;
+    color: Red;
+}
+
+a:visited{
+    font-size: 20px;
+    color: blue;
+}
+
+a:hover{
+    font-size: 22px;
+    color: green;
+}
+
+a:active{
+    font-size: 20px;
+    color: darkgray;
 }

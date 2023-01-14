@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css_files/summary.css" />
     <title>HTML summary</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+    />
+    <style>
+      h6 {
+        font-size: 100%;
+        color: blueviolet;
+      }
+    </style>
   </head>
-  <body style="background-color: rgb(189, 230, 198)">
+  <body>
     <h1 style="color: red; background-color: cornsilk; text-align: center">
       Here comes the end....
     </h1>
@@ -24,7 +34,7 @@
     <h6>heading6</h6>
 
     <h2>About paragraphs</h2>
-    <p>
+    <p class="newp">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error
       beatae quisquam corporis eos labore dolor porro ea, ipsum qui quam
       laudantium nobis odio quas! Mollitia iure quidem facilis eius magnam enim,
@@ -78,5 +88,110 @@
     </pre>
 
     <hr />
+
+    <h2>Lets see about formatting...</h2>
+    <p>This is <b>Bold</b> text</p>
+    <p>This is <i>Italic</i> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <em>emphasized</em> text</p>
+    <p>This is <strong>strong</strong> text</p>
+    <p>This is <mark>marked</mark> text</p>
+    <p>This is the <small>smallest</small> text</p>
+    <p>This is the <del>deleted</del> text</p>
+    <p>This is the <ins>inserted</ins> text</p>
+    <p>This is the 10<sup>superscripted</sup> text</p>
+    <p>This is the H<sub>subscripted</sub>O text</p>
+    <hr />
+
+    <h2>Quotation elements...</h2>
+    <p>Lorem says...</p>
+    <blockquote cite="https://www.google.com" title="About lorem">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+      perspiciatis, suscipit deleniti cupiditate eaque impedit rerum dignissimos
+      eveniet numquam voluptatum facilis tenetur doloribus omnis. Vitae quasi,
+      necessitatibus laudantium dolorem veritatis ipsam autem sit hic
+      voluptatibus, sunt, minus nulla officiis sint. Atque, deleniti dolores
+      nisi veniam nobis placeat quo eum adipisci?
+    </blockquote>
+    <hr />
+    <p>
+      I quote that
+      <q
+        cite="https://www.google.com"
+        title="About lorem"
+        style="font-style: italic"
+        >I love my parents</q
+      >
+    </p>
+    <hr />
+    <p>
+      The full-form of <abbr title="Hypertext Markup Language">HTML</abbr> is
+      hYper text
+    </p>
+    <hr />
+    <address>
+      At Gondi Digrass <br />
+      Post Yenwa <br />
+      Ta - Katol, Dist - Nagpur <br />
+      Maharashtra - 441302
+    </address>
+    <hr />
+    <p><cite>Shubham, The great</cite> is the founder of Qualismile.</p>
+    <hr />
+    <p>
+      I love you can be written in rigth to left as
+      <bdo dir="rtl">I Love You</bdo>
+    </p>
+    <hr />
+    <h2>HTML colors</h2>
+    <p style="color: blue">Hey there how are you?</p>
+    <p style="color: rgb(156, 95, 95)">Hey there how are you?</p>
+    <p style="color: rgba(156, 160, 128, 0.8)">Hey there how are you?</p>
+    <p style="color: #ff0f1f">Hey there how are you?</p>
+    <hr />
+    <h2>Links...</h2>
+    <a href="https://www.google.com" target="_blank" title="Google"
+      >Hey are you there?</a
+    >
+
+    <a href="https://www.wikipedia.com" target="_blank" title="Google"
+      >Playing with links!</a
+    >
+
+    <a href="https://www.phonepae.com">Tiklinkg with links</a>
+    <hr />
+    <img src="./images/image_map.jpg" alt="map" usemap="#imagemp" />
+    <map name="imagemp">
+      <area
+        shape="rect"
+        coords="32,40,273,350"
+        href="https://en.wikipedia.org/wiki/Laptop"
+        alt="Laptop"
+        target="_blank"
+      />
+
+      <area
+        shape="rect"
+        coords="290,173,335,247"
+        href="https://en.wikipedia.org/wiki/Mobile_phone"
+        alt="Mobile"
+        target="_blank"
+      />
+
+      <area
+        shape="circle"
+        coords="338,300,42"
+        href="https://en.wikipedia.org/wiki/Coffee"
+        alt="Coffee"
+        target="_blank"
+      />
+
+      <area
+        shape="poly"
+        coords="335,258,351,262,369,272,392,272,396,277,394,279,381,293,381,314,369,332,341,344,314,335,296,315,292,297,298,277,314,263,335,258"
+        href=""
+        alt=""
+      />
+    </map>
   </body>
 </html>
