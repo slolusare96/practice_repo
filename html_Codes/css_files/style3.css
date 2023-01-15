@@ -1,0 +1,22 @@
+
+
+/* tag selectors */
+/* id selector */
+/* class selector */
+
+.parent{
+    box-shadow: 2px 2px 15px gray;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 50px;
+    text-align: justify;
+}
+
+/* .child{
+    border: 2px solid green;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+} */
