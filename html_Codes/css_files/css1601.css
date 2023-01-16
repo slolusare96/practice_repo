@@ -1,0 +1,84 @@
+
+
+#parent{
+    background-color: red;
+}
+
+h1.child1{
+    background-color: blue;
+}
+
+.child2{
+    background-color: green;
+}
+
+h3{
+    background-color: chartreuse;
+    opacity: 1;
+}
+
+
+h3{
+    background-color: cornflowerblue;
+}
+
+
+.div1{
+    background-image: url(../images/light\ back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin: 0 auto;
+    background-blend-mode: difference;
+    box-shadow: 1px 1px 15px grey;
+    border: 5px mintcream ridge;
+}
+
+.div2{
+    margin: 20px;
+}
+ 
+.div3{
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: chartreuse;
+    border-radius: 30px;
+
+}
+.div4{
+    margin: 25px;
+    border: 2px solid red;
+    width: 50%;
+    height: 100px;
+}
+
+.div5{
+    left: 12.5%;
+    top: 25%;
+    border: 2px solid green;
+    width: 75%;
+    height: 50%;
+}
+
+
+.div6 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.div7{
+    border: 2px solid green;
+    width: 400px;
+    height: 400px;
+}
+
+
