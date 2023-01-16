@@ -1,0 +1,24 @@
+.sidebar{
+    width: 320px;
+    height: 772px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    box-shadow: 10px 0px 15px grey;
+    border-inline-start: 20px solid rgb(28, 217, 157);
+
+}
+
+.buttons{
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-block: 35px
+}
+
+.logo{
+    background-image: url(../images/accio_logo.png);
+    width: 100%;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
