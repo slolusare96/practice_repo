@@ -1,0 +1,47 @@
+.class1{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.class2{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    text-align: center;
+    letter-spacing: 3vw;
+    font-size: 8vw;
+    background-image: url("../images/light\ back.webp");
+}
+
+.class3{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    letter-spacing: 1vw;
+    font-size: 4vw;
+    margin-block: 10px;
+    text-align: center;
+    position:sticky;
+    top:0px;
+    background-image: url("../images/light\ back.webp");
+}
+
+.class4{
+    width: 200px;
+    height: 142vw;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.section1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    margin-inline: 10px;
+}
+
