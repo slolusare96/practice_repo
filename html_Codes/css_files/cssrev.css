@@ -1,0 +1,23 @@
+a#a1:hover{
+    font-size: 20px;
+    background-color: brown;
+    color: azure;
+}
+
+a#a1:visited{
+    font-size: 38px;
+    font-style: italic;
+    color: cadetblue;
+    background-color: darkgreen;
+}
+
+a#a1{
+    font-size: 18px;
+    color: darkgoldenrod;
+    background-color: bisque;
+}
+
+a#a1:active{
+    font-size: 20px;
+    color: azure; 
+}
