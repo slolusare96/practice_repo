@@ -21,3 +21,15 @@ a#a1:active{
     font-size: 20px;
     color: azure; 
 }
+
+table, th, td{
+    border: 0.25px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    font-style: italic;
+}
+
