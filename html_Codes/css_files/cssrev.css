@@ -33,3 +33,9 @@ td{
     font-style: italic;
 }
 
+
+
+
+:disabled{
+    color: red;
+}
