@@ -36,6 +36,11 @@ td{
 
 
 
-:disabled{
+
+select:invalid {
     color: red;
+}
+ 
+option {
+    color: #000;
 }
