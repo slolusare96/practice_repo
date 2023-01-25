@@ -1,0 +1,36 @@
+.heading{
+    font-style: italic;
+    color: green;
+}
+
+#hder{
+    color: brown;
+}
+
+/* Simple selector 
+- Universal Selector *
+- Class selector .
+- ID selector #
+- Tag selector tag_name
+- Attribute Selector 
+
+Combinator selector
+- Descendant selector _space
+- Child selector >
+- Adjacent sibling selector +
+- General Sibling selector ~
+
+Pseudo-class selector :
+
+Pseudo-element selector
+*/
+
+h1::after{
+    content: ' after sexy';
+    color: red;
+}
+
+h1::before{
+    content: '🔗';
+}
+
