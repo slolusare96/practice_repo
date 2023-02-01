@@ -1,0 +1,48 @@
+html{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2f2f2f;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main header{
+    background-color: rgb(227, 237, 246);
+    font-size: 4rem;
+    box-shadow: 5px 5px 5px 5px rgb(227, 237, 246);
+    display:inline-flex;
+    justify-content: center;
+}
+
+main nav{
+    display: flex;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+    padding: 10px;
+}
+
+.navbar{
+    display: inline-flex;
+    gap: 1vw;
+    flex: 2 0 auto;
+}
+
+.body{
+    display: flex;
+}
+
+.aside{
+    flex-basis:300px;
+    padding: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(227, 237, 246);
+    box-shadow: 5px 5px 5px 5px rgb(227, 237, 246);
+    font-size: 1rem;
+}
