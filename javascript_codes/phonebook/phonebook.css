@@ -1,0 +1,102 @@
+body{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 95vh;
+    background-color: lightgreen;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    box-sizing: border-box;
+    font-size: 6vw;
+    box-shadow: 2px 2px 20px  black;
+    background-color: rgb(182, 255, 253);
+    text-shadow: 2px 10px 11px #1b402b;
+}
+
+#clk_btn{
+    font-size: 1rem; 
+    color: darkgreen; 
+    font-weight: bolder;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 2px 2px 10px black;
+}
+
+#outer{
+    display: none;
+    gap: 15px;
+}
+
+#inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+    height: 95vh;
+    box-shadow: 2px 2px 20px  black;
+    background-color: rgb(214, 216, 219);
+}
+
+#heading{
+    font-size: 5vw;
+    text-align: center;
+    color: #1b402b;
+}
+
+#txtbox{
+    width:500px;
+    height: 10px;
+    border-radius: 30px;
+    border: 0px;
+    box-shadow: 5px 5px 20px grey;
+    padding: 20px;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 1rem;
+}
+
+:focus{
+    border: 0px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#textBoxBtn{
+    font-size: 1rem; 
+    color: darkgreen; 
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 2px 2px 10px black;
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+}
+
+#para{
+    font-size: 3.5vw;
+    text-align: center;
+    color: #1b402b;
+}
+
+#textBoxBtn:hover{
+    background-color: yellow;
+}
+
