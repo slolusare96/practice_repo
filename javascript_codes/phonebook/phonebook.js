@@ -1,5 +1,7 @@
 const clickHere = document.querySelector("#clk_btn");
 const input_area = document.getElementById("txtbox");
+const wlcm = document.getElementById("welcome");
+const otr = document.getElementById("outer");
 
 const para = document.querySelector("#para");
 
@@ -13,15 +15,16 @@ const contactDetails = {
   ranjana: 7057679495,
   parth: 9021489766,
   vidhi: 9373344942,
+  rakhi: 8263861225,
 };
 
 clickHere.onclick = () => {
-  document.getElementById("welcome").style.display = "none";
-  document.getElementById("outer").style.display = "flex";
+  wlcm.style.display = "none";
+  otr.style.display = "flex";
 };
 
 search.addEventListener("click", () => {
-  const searchName = input_area.value;
+  const searchName = input_area.value.toLowerCase();
   const mobNum = contactDetails[searchName];
   if (mobNum != undefined)
     para.textContent = `The mobile number of ${searchName.toUpperCase()} is ${mobNum}`;
