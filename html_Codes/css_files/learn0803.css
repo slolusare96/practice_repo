@@ -21,9 +21,9 @@
 
 /* p[class] {
   color: pink;
-}
-
-p[class="class1"] {
+} */
+/* 
+.class1[required] {
   color: brown;
 } */
 
@@ -75,7 +75,7 @@ div > p {
     b. Tag or type selectors (tag_name)
     c. ID selector (#)
     d. Class selectors (.)
-    e. Attribute Selectors (tag_name[attribute] or tag_name[attribute="value"] 
+    e. Attribute Selectors ([attribute] or [attribute="value"] 
 2. Combinators
     a. Descendant selector (" ")
     b. Child selectors (" > ")
@@ -85,4 +85,58 @@ div > p {
     a. :
 4. Pseudo elements
     b. ::
+*/
+/* .class1 {
+  color: red;
+  font-style: italic;
+}
+
+.class1 {
+  color: green;
+} */
+
+/* 
+For CSS there are three types of origins
+1. User agent style sheets
+2. Author style sheets
+3. User style sheets
+*/
+
+/* 
+Cascading algorithm will be applied. This step will be checked
+1. Relevance
+2. Origin and Importance 
+3. Specificity
+4. Order of appearance
+
+Origin and importance
+    user agent first layer
+    user agent last layer
+    user agent unlayered
+
+    User styles - first layer
+    User styles - last layer
+    user styles unlayered
+
+    author first layer
+    author last layer
+    author unlayered
+    inline
+
+    animations
+
+    author unlayerd imp
+    author last layr imp
+    author first layer imp
+    inline imp
+
+    user unlaer imp
+    user last layer imp
+    user first layer imp
+
+    user agent unlayer imp
+    user agent last layer imp
+    user agent first layer imp
+
+    transitions
 */
