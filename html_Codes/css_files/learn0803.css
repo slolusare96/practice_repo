@@ -1,3 +1,88 @@
-.index {
-  color: blue;
+/* Basic selctors */
+/* * {
+  font-style: italic;
 }
+
+#id_selector {
+  color: red;
+}
+
+.class_selector {
+  text-align: center;
+  color: purple;
+} */
+
+/* type or tag selector */
+/* p {
+  color: cadetblue;
+} */
+
+/* Attribute selector */
+
+/* p[class] {
+  color: pink;
+}
+
+p[class="class1"] {
+  color: brown;
+} */
+
+/* Combinators */
+
+/* Descendant selector */
+
+/* body .class1 {
+  color: orange;
+  font-size: 30px;
+}
+
+body h1 {
+  font-size: 48px;
+  color: brown;
+} */
+
+/* Child Selector */
+
+/* Difference between child and descendant */
+/* body p {
+  color: green;
+}
+
+div > p {
+  color: orange;
+} */
+
+/* General sibling selector */
+/* .class2 ~ p {
+  color: darkgrey;
+} */
+
+/* Adjacent sibling selector */
+
+/* .class1 + .class_selector {
+  color: green;
+} */
+
+/* Pseudo class */
+/* : */
+
+/* pseudo elements */
+/* :: */
+
+/* There are four types of selectors
+1. Simple selectors
+    a. Universal Selectors (*)
+    b. Tag or type selectors (tag_name)
+    c. ID selector (#)
+    d. Class selectors (.)
+    e. Attribute Selectors (tag_name[attribute] or tag_name[attribute="value"] 
+2. Combinators
+    a. Descendant selector (" ")
+    b. Child selectors (" > ")
+    c. General sibling selectors (" ~ ")
+    d. Adjacent selectors (" + ")
+3. Pseudo classes 
+    a. :
+4. Pseudo elements
+    b. ::
+*/
