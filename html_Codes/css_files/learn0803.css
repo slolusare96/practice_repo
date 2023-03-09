@@ -140,3 +140,24 @@ Origin and importance
 
     transitions
 */
+/* 
+@layer standard, selfish;
+
+@layer selfish {
+  .class1 {
+    color: red;
+  }
+}
+
+@layer standard {
+  #class3 {
+    color: green;
+  }
+}
+
+.class1 {
+  color: rebeccapurple;
+} */
+/* 
+@import url("./selfish.css") layer(selfish);
+@import url("./standard.css") layer(standard); */
