@@ -1,0 +1,197 @@
+/* Basic selctors */
+/* * {
+  font-style: italic;
+}
+
+#id_selector {
+  color: red;
+}
+
+.class_selector {
+  text-align: center;
+  color: purple;
+} */
+
+/* type or tag selector */
+/* p {
+  color: cadetblue;
+} */
+
+/* Attribute selector */
+
+/* p[class] {
+  color: pink;
+} */
+/* 
+.class1[required] {
+  color: brown;
+} */
+
+/* Combinators */
+
+/* Descendant selector */
+
+/* body .class1 {
+  color: orange;
+  font-size: 30px;
+}
+
+body h1 {
+  font-size: 48px;
+  color: brown;
+} */
+
+/* Child Selector */
+
+/* Difference between child and descendant */
+/* body p {
+  color: green;
+}
+
+div > p {
+  color: orange;
+} */
+
+/* General sibling selector */
+/* .class2 ~ p {
+  color: darkgrey;
+} */
+
+/* Adjacent sibling selector */
+
+/* .class1 + .class_selector {
+  color: green;
+} */
+
+/* Pseudo class */
+/* : */
+
+/* pseudo elements */
+/* :: */
+
+/* There are four types of selectors
+1. Simple selectors
+    a. Universal Selectors (*)
+    b. Tag or type selectors (tag_name)
+    c. ID selector (#)
+    d. Class selectors (.)
+    e. Attribute Selectors ([attribute] or [attribute="value"] 
+2. Combinators
+    a. Descendant selector (" ")
+    b. Child selectors (" > ")
+    c. General sibling selectors (" ~ ")
+    d. Adjacent selectors (" + ")
+3. Pseudo classes 
+    a. :
+4. Pseudo elements
+    b. ::
+*/
+/* .class1 {
+  color: red;
+  font-style: italic;
+}
+
+.class1 {
+  color: green;
+} */
+
+/* 
+For CSS there are three types of origins
+1. User agent style sheets
+2. Author style sheets
+3. User style sheets
+*/
+
+/* 
+Cascading algorithm will be applied. This step will be checked
+1. Relevance
+2. Origin and Importance 
+3. Specificity
+4. Order of appearance
+
+Origin and importance
+    user agent first layer
+    user agent last layer
+    user agent unlayered
+
+    User styles - first layer
+    User styles - last layer
+    user styles unlayered
+
+    author first layer
+    author last layer
+    author unlayered
+    inline
+
+    animations
+
+    author unlayerd imp
+    author last layr imp
+    author first layer imp
+    inline imp
+
+    user unlaer imp
+    user last layer imp
+    user first layer imp
+
+    user agent unlayer imp
+    user agent last layer imp
+    user agent first layer imp
+
+    transitions
+*/
+/* 
+@layer standard, selfish;
+
+@layer selfish {
+  .class1 {
+    color: red;
+  }
+}
+
+@layer standard {
+  #class3 {
+    color: green;
+  }
+}
+
+.class1 {
+  color: rebeccapurple;
+} */
+/* 
+@import url("./selfish.css") layer(selfish);
+@import url("./standard.css") layer(standard); */
+
+.class1 {
+  width: 450px;
+  height: 450px;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 25px;
+}
+
+.class2 {
+  box-sizing: content-box;
+  width: 450px;
+  height: 450px;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 25px;
+}
+
+.class3 {
+  box-sizing: border-box;
+  width: 450px;
+  height: 450px;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 25px;
+}
+
+body {
+  box-sizing: border-box;
+  /* margin: 0px; */
+  width: 100%;
+  height: 100%;
+  border: 5px solid red;
+}
